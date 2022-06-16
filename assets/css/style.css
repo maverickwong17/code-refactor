@@ -1,14 +1,16 @@
-/**/
+/*Box border to apply to all*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Adapt background color*/
 body {
     background-color: #d9dcd6;
 }
 
+/*format header font and colors*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*header display inline not stacked*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*specific color for section seo*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*header section formating*/
 .header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/*remove bullet list bullets*/
 .header section ul {
     list-style-type: none;
 }
 
+/*header list items inline*/
 .header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*set color for list items*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*set color for p items*/
 p {
     font-size: 16px;
 }
 
+/*Spanned Picture Formatting*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*Image formatting*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Image formatting*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Section Formatting For SEO ORM SMM*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Right Column Formatting*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,6 +101,7 @@ p {
     background-color: #2589bd;
 }
 
+/*Benefit Column Formating*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +117,7 @@ p {
     color: #ffffff;
 }
 
+/*Benefit Column Header Formating*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -117,6 +133,7 @@ p {
     text-align: center;
 }
 
+/*Benefit column Image Formating*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -144,6 +161,7 @@ p {
     color: #ffffff;
 }
 
+/*Online Reputation formating*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,6 +180,7 @@ p {
     color: #ffffff;
 }
 
+/*Picture Formating*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -174,6 +193,7 @@ p {
     max-height: 200px;
 }
 
+/*Header Foramtting*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -189,6 +209,7 @@ p {
     font-size: 36px;
 }
 
+/*Footer Formatting*/
 .footer {
     padding: 30px;
     clear: both;
